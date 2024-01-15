@@ -86,8 +86,8 @@ class MainActivity : ComponentActivity() {
 
     override fun onStart() {
         super.onStart()
-        showBluetoothDialog()
-        //pairedDevice()
+       // showBluetoothDialog()
+        pairedDevice()
     }
 
     private var isBluetoothDialogAlreadyShow = false

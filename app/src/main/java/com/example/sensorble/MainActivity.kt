@@ -171,6 +171,7 @@ class MainActivity : ComponentActivity() {
                     }catch (e:Exception){
                         socket?.close()
                         e.printStackTrace()
+                        Toast()
                     }
                 }
             }

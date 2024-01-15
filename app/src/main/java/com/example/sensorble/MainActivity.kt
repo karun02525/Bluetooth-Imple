@@ -139,6 +139,7 @@ class MainActivity : ComponentActivity() {
     var receveMessage=""
     fun autoConnect(){
         for(i in list){
+            //
             if(myMac==i.address){
                 //create a bluetooth socket for communication
                 val device:BluetoothDevice?= bluetoothAdapter.getRemoteDevice(myMac)
